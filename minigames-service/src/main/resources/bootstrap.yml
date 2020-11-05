@@ -1,3 +1,15 @@
 spring:
   application:
     name: minigames-service
+
+#  profiles:
+#    active:
+
+  cloud:
+    config:
+      uri: http://localhost:8089
+      username: root
+      password: s3cr3t
+
+minigames:
+  testprop: bootstrapprop
